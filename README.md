@@ -56,7 +56,7 @@ Proyek ini menunjukkan implementasi RTOS (Real-Time Operating System) pada mikro
 ## 🌟 Potensi Hasil
 - Jika tidak ada konflik:
   - LED hijau dan merah berkedip secara terpisah tanpa saling mempengaruhi.
--Jika terjadi konflik:
+- Jika terjadi konflik:
   - LED biru akan menyala bersamaan dengan salah satu LED lainnya sebagai indikator gangguan.
 
 ---
