@@ -42,12 +42,22 @@ Proyek ini menunjukkan implementasi RTOS (Real-Time Operating System) pada mikro
 
 ---
 
-## 🌟 Hasil yang Diharapkan
-- RTOS berhasil mengelola multitasking tanpa konflik antar tugas.
-- LED berkedip dengan kecepatan yang sesuai dengan prioritas tugas:
-  - LED Hijau berkedip tercepat.
-  - LED Merah berkedip sedang.
-  - LED Kuning berkedip paling lambat.
+## 🌟 Output
+- LED Hijau:
+  - Menyala selama proses di GreenTask berlangsung.
+  - Kedipan LED hijau akan memiliki periode 500 milidetik, dengan waktu nyala sesuai durasi akses data ditambah waktu di dalam critical section.
+- LED Merah:
+  - Menyala selama proses di RedTask berlangsung.
+  - Kedipan LED merah akan memiliki periode 100 milidetik, dengan waktu nyala sesuai durasi akses data ditambah waktu di dalam critical section.
+- LED Biru:
+  - Menyala jika ada konflik dalam akses critical section (misalnya ketika kedua tugas mencoba mengakses data bersama secara bersamaan).
+  - Konflik ini diatur melalui variabel StartFlag.
+
+## 🌟 Potensi Hasil
+- Jika tidak ada konflik:
+  - LED hijau dan merah berkedip secara terpisah tanpa saling mempengaruhi.
+-Jika terjadi konflik:
+  - LED biru akan menyala bersamaan dengan salah satu LED lainnya sebagai indikator gangguan.
 
 ---
 
