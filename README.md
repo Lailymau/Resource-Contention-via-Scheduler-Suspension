@@ -12,6 +12,11 @@ Proyek ini menunjukkan implementasi RTOS (Real-Time Operating System) pada mikro
 
 ---
 
+## 📂 Node Diagram
+![image](https://github.com/user-attachments/assets/cf2f3053-5879-4e3c-a2cb-1b0d58f35c8d)
+
+---
+
 ## 🛠️ Peralatan dan Perangkat
 - 💻 **Perangkat Lunak**: STM32CubeIDE, FreeRTOS  
 - 🔧 **Perangkat Keras**: Board STM32 Nucleo, LED, Kabel Jumper  
@@ -47,3 +52,7 @@ Proyek ini menunjukkan implementasi RTOS (Real-Time Operating System) pada mikro
 ---
 
 ## 🧪 Hasil Percobaan
+- Normal
+  https://github.com/user-attachments/assets/931b29b7-195e-4839-a659-44cd1663e8ef
+- Konflik
+  https://github.com/user-attachments/assets/376253f7-56d8-4cc5-ab7e-7fd7f06c23e3
