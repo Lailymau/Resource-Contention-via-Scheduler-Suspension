@@ -51,8 +51,10 @@ Proyek ini menunjukkan implementasi RTOS (Real-Time Operating System) pada mikro
 
 ---
 
-## 🧪 Hasil Percobaan
-- Normal
-  https://github.com/user-attachments/assets/931b29b7-195e-4839-a659-44cd1663e8ef
-- Konflik
-  https://github.com/user-attachments/assets/376253f7-56d8-4cc5-ab7e-7fd7f06c23e3
+## 🧪 Hasil Percobaan Normal
+https://github.com/user-attachments/assets/931b29b7-195e-4839-a659-44cd1663e8ef
+
+---
+
+## 🧪 Hasil Percobaan Normal Konflik
+https://github.com/user-attachments/assets/376253f7-56d8-4cc5-ab7e-7fd7f06c23e3
